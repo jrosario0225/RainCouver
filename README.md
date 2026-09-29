@@ -1,29 +1,29 @@
 # RainCouver
 
-RainCouver helps you choose walking routes through Vancouver with more shelter from the rain. It maps streets by how covered they are, then keeps that information visible while you walk so you can make a better call at the next turn.
+RainCouver is a phone web app for finding and following drier walks through downtown Vancouver. It compares faster and more sheltered routes, then shows street coverage as you walk.
 
-**Status:** Early prototype — route guidance and manual coverage reporting are in progress.
+**Status:** Core routing and walk tracking are implemented. Real-world phone testing is next.
 
 ## Walking with RainCouver
 
 <div align="center">
-  <img src = "RainCouver-Images/RainCouver-1.jpeg" width = "240" alt = "Walking with Raincouver" />
-  <img src = "RainCouver-Images/RainCouver-2.jpeg" width = "240" alt = "Segment Correction" />
+  <img src = "RainCouver-Images/RainCouver-1.jpeg" width = "240" alt = "Walking with RainCouver" />
+  <img src = "RainCouver-Images/RainCouver-2.jpeg" width = "240" alt = "Segment correction" />
 </div>
 
-Follow turn-by-turn directions while seeing the route’s shelter coverage at a glance. Covered, partial, exposed, and unknown segments use distinct colors, and the map shows your location, distance remaining, and the next instruction.
+Follow turn-by-turn directions while seeing covered, partially covered, exposed, and unknown street segments on the map. RainCouver tracks your location, shows the next instruction and distance remaining, and can reroute when you go off course.
 
-Coverage can be corrected while walking. Tap a segment to mark it covered, partially covered, or exposed, and optionally leave a note about what provides shelter. Corrections are saved on the phone and used the next time you plan or reroute.
+Coverage can be corrected during a walk. Tap a route segment to mark it covered, partially covered, or exposed, and optionally add a note. Corrections are saved on your device and used for future routes.
 
 ## What it does
 
-- Shows walking routes with a coverage estimate for each street segment.
-- Distinguishes covered, partially covered, exposed, and unknown sections on the map.
-- Provides live walking directions and lets you change a segment’s coverage in context.
-- Saves coverage corrections and optional notes on the device for future route planning.
-- Credits OpenStreetMap contributors and Vancouver Open Data for map data; weather and coverage estimates are provided by Open-Meteo and user updates.
+- Plans downtown Vancouver walking routes, including fastest and drier options with a 30% detour cap.
+- Uses an offline map and walking network, with searchable places and intersections.
+- Provides live GPS progress, turn guidance, arrival detection, rerouting, and walk resume.
+- Includes initial LiDAR-based cover estimates for 4,334 segments; other segments are shown as unknown.
+- Saves coverage corrections and notes locally, with backup and restore.
+- Uses OpenStreetMap and Vancouver Open Data; weather is provided by Open-Meteo.
 
 ## Where it’s headed
 
-RainCouver is being built into a practical, community-informed way to plan drier walks around Vancouver. The next steps are to improve the route coverage data, make corrections easier to contribute and maintain, and keep the experience useful from route planning through the walk itself. Coverage is an estimate and can change as streets and awnings do.
-# RainCouver
+The next focus is testing real walks on a phone: checking compass behavior, GPS accuracy, rerouting, and offline use. The project can then improve street and entrance details, add more LiDAR coverage, and consider walk history and correction review. Initial coverage estimates are provisional, and broader LiDAR coverage is an optional data-quality improvement.
