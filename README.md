@@ -6,11 +6,11 @@ RainCouver helps you choose walking routes through Vancouver with more shelter f
 
 ## Walking with RainCouver
 
-![RainCouver walking route with covered, partial, and exposed segments](images/RainCouver-1.jpeg)
+![RainCouver walking route with covered, partial, and exposed segments](RainCouver-Images/RainCouver-1.jpeg)
 
 Follow turn-by-turn directions while seeing the route’s shelter coverage at a glance. Covered, partial, exposed, and unknown segments use distinct colors, and the map shows your location, distance remaining, and the next instruction.
 
-![RainCouver segment coverage correction](images/RainCouver-2.jpeg)
+![RainCouver segment coverage correction](RainCouver-Images/RainCouver-2.jpeg)
 
 Coverage can be corrected while walking. Tap a segment to mark it covered, partially covered, or exposed, and optionally leave a note about what provides shelter. Corrections are saved on the phone and used the next time you plan or reroute.
 
