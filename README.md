@@ -7,8 +7,8 @@ RainCouver is a phone web app for finding and following drier walks through down
 ## Walking with RainCouver
 
 <div align="center">
-  <img src = "RainCouver-Images/RainCouver-1.png" width = "240" alt = "Walking with RainCouver" />
-  <img src = "RainCouver-Images/RainCouver-2.png" width = "240" alt = "Segment correction" />
+  <img src = "RainCouver-Images/Raincouver-1.png" width = "240" alt = "Walking with RainCouver" />
+  <img src = "RainCouver-Images/Raincouver-2.png" width = "240" alt = "Segment correction" />
 </div>
 
 Follow turn-by-turn directions while seeing covered, partially covered, exposed, and unknown street segments on the map. RainCouver tracks your location, shows the next instruction and distance remaining, and can reroute when you go off course.
